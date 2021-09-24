@@ -1,0 +1,502 @@
+/* lg */
+@media (min-width: 1400px) {
+
+}
+
+/* md */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .tr-menu .navbar-nav > li > a {
+        padding: 15px;
+    }
+
+    .kingster-navigation .sf-menu > li {
+        padding-right: 5px;
+    }
+
+    .kingster-navigation .sf-menu > li > a, .kingster-navigation .sf-vertical > li > a {
+        font-size: 14px;
+    }
+
+    .kingster-logo-inner img {
+        height: 50px;
+    }
+
+    .slider-left-textbox {
+        margin-top: -162px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .tr-home-slider .item {
+        background-size: cover !important;
+        background-position: 0;
+        height: 300px;
+    }
+}
+
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    .tr-home-slider .item {
+        height: 350px;
+    }
+
+    .dept-section .item-content {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        width: 35%;
+    }
+
+    .dept-section .slider-more-btn {
+        margin-top: 0px;
+    }
+
+    .carousel-inner {
+        height: initial !important;
+    }
+
+    #search-course-section .item-three, #footer .footer-three-item {
+        clear: left;
+    }
+
+    .slider-left-textbox {
+        font-size: 16px;
+        margin-top: -172px;
+    }
+
+    /* Chairperson section */
+    .dean-profile {
+        width: 165px;
+    }
+
+    .dean-info {
+        width: calc(100% - 165px);
+    }
+
+    .dean-message-wrap .block-title {
+        font-size: 16px;
+    }
+
+    .dean-name {
+        font-size: 14px;
+    }
+
+    .dean-faculty {
+        font-size: 13px;
+    }
+
+    /* faculty Details view*/
+    .emp-profile .personal-info {
+        float: left;
+        width: 100%;
+    }
+
+    /*Common */
+    .sidebar_r ul.nav > li {
+        padding-left: 0px;
+    }
+
+}
+
+/* xs */
+@media (max-width: 767px) {
+    /* Slider */
+    .carousel-inner {
+        height: auto !important;
+    }
+
+    .dept-section .item-content {
+        top: 10%;
+        right: 0%;
+        left: 0%;
+        color: #fff;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .dep-custom-slider-top-right-bg {
+        height: 70%;
+        background: linear-gradient(90deg, transparent 0%, #192f5991 0%);
+    }
+
+    .dept-section .slider-more-btn {
+        margin-top: 0;
+    }
+
+    /* Search-course-section*/
+    section#search-course-section {
+        margin-top: 500px !important;
+    }
+
+    .dept-info-wrap {
+        webkit-box-shadow: 0 0px 0px 0px rgba(25, 47, 89, 0.42);
+        -moz-box-shadow: 0 0px 0px 0px rgba(25, 47, 89, 0.42);
+        box-shadow: 0 0px 0px 0px rgba(25, 47, 89, 0.42);
+    }
+
+    .slider-left-textbox {
+        font-size: 20px;
+    }
+
+    .dean-message-wrap {
+        margin-top: 50px;
+    }
+
+    #search-course-section h3 {
+        font-size: 16px;
+    }
+
+    #search-course-section h3 {
+        font-size: 16px;
+    }
+
+    #search-course-section .icon-wrap img.icon {
+        height: 30px;
+    }
+
+    .course-search ul li {
+        padding-left: 0px;
+    }
+
+    .dept-section .section-title {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    /* Notice Section */
+    /*.padding-top-bottom65 {
+        padding: 40px 0px !important;
+    }*/
+    #news-notice-calendar .course-search > h3 {
+        margin-top: 30px;
+    }
+
+    /* Video section admission section*/
+    .dept-custom-video .admission-bg-img {
+        height: 505px;
+    }
+
+    section.section.dept-custom-video {
+        background: linear-gradient(90deg, #182e59 0%, #004d40 0%);
+    }
+
+    .dept-custom-video .admission-bg-img {
+        background-size: 0% 420px !important;
+    }
+
+    .col-md-6.dept-custom-video-riht-box {
+        padding: 40px 15px;
+    }
+
+    .btn-course-search {
+        margin-left: 0px !important;
+    }
+
+    /*Faculty Member page */
+    .section.dept-section {
+        margin: 0
+    }
+
+    /* faculty Details view*/
+    .emp-profile {
+        padding: 0px 0 40px !important;
+    }
+
+    .emp-profile .personal-info {
+        float: left;
+        width: 100%;
+    }
+
+    /*Common page*/
+    ul.publication li {
+        padding-left: 0px;
+    }
+
+    ul.publication li {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    ul.publication li {
+        margin-bottom: 10px;
+    }
+
+    .sidebar_r ul.nav > li {
+        padding-left: 0px;
+    }
+
+    .panel-heading.panel-heading a {
+        font-size: 18px !important;
+    }
+
+    /*administrative officer*/
+    .gdlr-core-column-15 {
+        width: 50% !important;
+    }
+
+    .gdlr-core-media-image {
+        text-align: center;
+    }
+
+    /*Achivement page*/
+    .dept-member-details {
+        margin-top: 0px;
+    }
+
+    .dept-member-imgboxshado img {
+        width: 60%;
+    }
+
+    /*event page*/
+    .eventbox {
+        margin-top: 50px !important;
+        height: 185px !important;
+    }
+
+    .event-date {
+        padding: 6px !important;
+    }
+
+    .event-details {
+        min-height: 170px;
+        float: left;
+    }
+
+    .event-details .large-font {
+        font-size: 18px;
+        display: inline-block;
+        margin-bottom: 0;
+        width: 100%
+    }
+
+    .event-image.custom-css {
+        height: 50px !important;
+    }
+
+    .event-details .btn-program {
+        margin-bottom: 15px !important;
+    }
+
+    .day + br {
+        display: none
+    }
+
+    /*Contact page*/
+    .font-size35 {
+        font-size: 24px;
+    }
+
+    .contact-top-grid-sec-one {
+        padding-bottom: 0px;
+        float: left;
+    }
+
+    .contact-top-grid-sec-one .fa {
+        font-size: 18px;
+        min-width: 25px;
+        min-height: 25px;
+    }
+
+    .contact-top-grid-sec-two h3 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    /*Faculty Member section */
+    .center-polygon {
+        width: 100% !important;
+    }
+
+    .faculty-member-img_poligon {
+        width: 98% !important;
+    }
+
+    #faculty-member .slick-slide img {
+        width: 100% !important;
+    }
+
+    /* Footer */
+    #footer h3 {
+        text-align: center;
+    }
+
+    #footer .footer-content {
+        text-align: center;
+    }
+
+    .footerLogo img {
+        text-align: center;
+        display: initial;
+    }
+
+    .footer-bottom-content .col-sm-4 {
+        text-align: center;
+    }
+
+}
+
+/* XS Portrait */
+@media (max-width: 479px) {
+    /* chairperson Message */
+    .dean-message-wrap {
+        margin-top: 0px;
+    }
+
+    #dean-frame {
+        margin: 0;
+    }
+
+    .dean-profile {
+        width: auto;
+        float: initial;
+    }
+
+    .dean-info {
+        width: auto;
+        float: initial;
+    }
+
+    .dean-message-wrap .block-title {
+        font-size: 20px !important;
+        margin-top: 20px;
+    }
+
+    .dean-name {
+        margin-top: 0px;
+    }
+
+    /* Notice Section */
+    #news-notice-calendar h3 {
+        font-size: 18px;
+    }
+
+    /* Video section admission section*/
+    .dept-custom-video-riht-box h3 {
+        font-size: 18px;
+    }
+
+    /*administrative officer*/
+    .gdlr-core-column-15 {
+        width: 100% !important;
+    }
+
+    /*Faculty Member section */
+    .center-polygon {
+        width: 100% !important;
+    }
+
+    .faculty-member-img_poligon {
+        width: 99% !important;
+    }
+
+    #faculty-member .slick-slide img {
+        width: 100% !important;
+    }
+
+    /* faculty Details view*/
+    .emp-profile {
+        padding: 0px 0 40px !important;
+    }
+
+    .emp-profile .dean-info {
+        width: auto;
+        float: initial;
+    }
+
+    /*Achivement page*/
+    .dept-member-imgboxshado img {
+        width: 100%;
+    }
+
+    .event-image {
+        width: 100%;
+        height: 200px;
+        float: initial;
+        position: relative;
+    }
+
+    .event-content {
+        width: 100%;
+        padding: 0px;
+        margin-top: 20px;
+        float: initial;
+    }
+
+}
+
+@media (max-width: 360px) {
+    /* Slider section */
+    .dep-custom-slider-top-right-bg {
+        height: 100%;
+    }
+
+    .dept-section .item-content {
+        top: 10%;
+    }
+
+    .dept-section .item-content h3 {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .dept-section .item-content p {
+        font-size: 12px;
+    }
+
+    .slider-left-textbox {
+        font-size: 18px;
+    }
+
+    /* chairperson Message */
+    .dean-message-wrap .block-title {
+        font-size: 18px !important;
+    }
+
+    /* Faculty Member section */
+    .section-cap img.line {
+        width: 90px;
+    }
+
+    /* Video section */
+    ul.nav.nav-tabs.tabsright li a {
+        font-size: 14px;
+    }
+
+    .col-md-6.dept-custom-video-riht-box p {
+        font-size: 13px;
+    }
+
+    /* Popular course section */
+    #popular-courses h3 {
+        font-size: 18px;
+    }
+
+    /*Common*/
+    .panel-heading.panel-heading a {
+        font-size: 16px !important;
+    }
+
+    /*footer */
+    #footer h3 {
+        font-size: 18px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    /*Common*/
+    .admin-office-head {
+        padding-right: 15px;
+    }
+
+    /*footer */
+    #footer h3 {
+        font-size: 16px;
+
+    }
+}
+
+
+
