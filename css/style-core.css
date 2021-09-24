@@ -6382,7 +6382,8 @@ body .tribe-bar-views-inner {
 	color: #000000 !important;
 }
 
-.header_content img, h6 {
+.header_content img,
+h6 {
 	padding-left: 5px;
 }
 
@@ -6478,26 +6479,26 @@ body .tribe-bar-views-inner {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	width: 380px; 
+	width: 380px;
 	padding-left: 35px;
 	line-height: 35px;
 	margin-bottom: 30px;
 }
- 
+
 
 .dept-info ul li {
 	display: block;
 	padding: 5px;
 	text-decoration: none;
 	border-bottom: 1px solid #bababa;
-	cursor: pointer; 
+	cursor: pointer;
 }
 
-.dept-info ul li:hover a { 
+.dept-info ul li:hover a {
 	color: #4bb671 !important;
 	text-decoration: none;
-	cursor: pointer; 
-	padding-left: 10px; 
+	cursor: pointer;
+	padding-left: 10px;
 	transition: 0.15s all ease;
 }
 
@@ -6505,7 +6506,7 @@ body .tribe-bar-views-inner {
 	border: 1px solid #eee;
 	padding: 10px;
 }
-  
+
 .dean-message-block {
 	width: 100%;
 	box-shadow: 10px 10px 30px 15px rgb(183 183 183 / 19%);
@@ -6520,7 +6521,7 @@ body .tribe-bar-views-inner {
 	color: #182e59;
 	font-size: 24px;
 	font-weight: 700;
-	text-transform: uppercase; 
+	text-transform: uppercase;
 }
 
 #dean-frame {
@@ -6542,7 +6543,7 @@ body .tribe-bar-views-inner {
 #dean-border {
 	position: relative;
 	padding: 0;
-	margin: 0; 
+	margin: 0;
 	width: 165px;
 	height: 200px;
 	border: solid 2px white;
@@ -6586,7 +6587,7 @@ img.course-search-img {
 	height: 100%;
 }
 
-.course-search ul{
+.course-search ul {
 	list-style: none;
 }
 
@@ -6601,9 +6602,9 @@ img.course-search-img {
 .course-search input.form-control {
 	background: #3b4b6b;
 	color: #fff;
-} 
+}
 
-.course-search .custom-css::placeholder, 
+.course-search .custom-css::placeholder,
 .course-search input.form-control::placeholder {
 	background: #3b4b6b;
 	color: #fff;
@@ -6622,13 +6623,13 @@ img.course-search-img {
 	color: #fff;
 }
 
-.course-search .form-control{
+.course-search .form-control {
 	background: #3b4b6b;
 	color: #fff;
 	height: 40px;
 }
 
-.course-search .ewu-course-form-combobox { 
+.course-search .ewu-course-form-combobox {
 	position: relative;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -6692,11 +6693,12 @@ ul.dept-news-list li {
 	border-bottom: 4px solid #004d40;
 	position: relative;
 }
+
 .all-content {
 	padding: 0px 15px;
 }
 
-.all-content ul{
+.all-content ul {
 	margin-left: 0px;
 	padding-top: 10px;
 }
@@ -6714,11 +6716,106 @@ ul.dept-news-list li {
 .all-content h5 {
 	font-size: 16px !important;
 }
- 
-
-
- /* Faculty Members */
 
 
 
- 
+/* Faculty Members */
+.dept-section .section-title {
+	color: #182e59;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 37px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.carousel-item.faculty-member-slider,
+.carousel-item.faculty-member-slider:active {
+	width: 250px;
+	height: 300px;
+}
+
+.dept-section .section-short-desc {
+	color: #182e59;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 37px;
+	margin: 0 auto 10px;
+}
+
+.dept-section .section-cap {
+	text-align: center;
+	height: 25px;
+	margin-bottom: 40px;
+}
+
+#faculty-member .item img {
+	width: 200px !important;
+	height: 255px;
+	object-fit: cover;
+}
+
+.faculty-member-img_poligon {
+	display: inline-block;
+	position: relative;
+	height: 265px;
+	box-sizing: border-box;
+}
+
+.faculty-member-img_poligon {
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 215px;
+	height: 270px;
+	border: 3px solid #004D40;
+	padding: 5px;
+}
+
+.center-polygon {
+	margin: auto;
+	width: 100%;
+	padding-bottom: 35px;
+}
+
+.faculty-member .name {
+	padding: 8px 0 5px;
+	color: #000000;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.faculty-member .designation {
+	color: #000000;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.bottomLine {
+	background: url(images/bottom_line.jpg) no-repeat center center;
+	width: 100%;
+	height: 6px;
+	margin-top: 12px;
+}
+
+.slider {
+	width: 100%;
+	margin: 100px auto;
+}
+
+.slick-slide {
+	margin: 0px 20px;
+}
+
+.slick-slide img {
+	width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+	color: black;
+}
+
+.slick-slide {
+	transition: all ease-in-out .3s;
+}
