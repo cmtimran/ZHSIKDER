@@ -6973,7 +6973,7 @@ ul.dept-news-list li {
 }
 
 .gallery-title {
-	padding-left: 200px;
+	padding-left: 180px;
 	padding-top: 65px;
 }
 
@@ -6983,7 +6983,7 @@ ul.dept-news-list li {
 }
 
 .dept-custom-right-box {
-	margin-top: -60px;
+	margin-top: -50px;
 }
 
 .description {
@@ -6993,6 +6993,119 @@ ul.dept-news-list li {
 .dept-custom-right-box .read-more {
 	padding-bottom: 10px;
 }
+
+
+
+/* LATEST NEWS */
+.dept-section .section-title {
+	color: #182e59;
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 37px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.dept-member-details {
+	box-shadow: 0 3px 25px rgb(113 113 113 / 16%);
+	background-color: #ffffff;
+	padding: 15px;
+	/* height: 600px; */
+	/* margin-top: 20px; */
+	/* margin-bottom: -4px; */
+	cursor: pointer;
+}
+
+.dept-member-info {
+	-webkit-transition-duration: .5s;
+	-moz-transition-duration: .5s;
+	-o-transition-duration: .5s;
+	transition-duration: .5s;
+	-webkit-transition-property: margin-top;
+	-moz-transition-property: margin-top;
+	-o-transition-property: margin-top;
+	transition-property: margin-top;
+	text-align: justify;
+	height: 480px;
+}
+
+.dept-member-mosta {
+	border-right: 15px solid #004d40;
+	border-top: 30px solid #004d40;
+	margin-top: -30px;
+	margin-right: -15px;
+	width: 70%;
+	float: right;
+	padding: 60px; 
+}
+
+#latest-news .slick-slide img {
+	display: inline-block;
+}
+
+.dept-member-imgboxshado img {
+	margin-top: -120px;
+	box-shadow: 0 3px 20px rgb(113 113 113 / 16%);
+	padding: 10px;
+	width: 310px !important;
+	height: 200px;
+	object-fit: cover;
+}
+
+.dept-member-info h4 {
+	padding: 15px 0px 10px 5px;
+	color: #000000;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.dept-member-info h6 {
+	color: #000000;
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: -10px;
+	border-top: 1px solid #4bb671;
+	border-bottom: 1px solid #4bb671;
+	padding: 10px 5px;
+}
+
+.dept-video-bottom-more-btn {
+	background-color: #4bb671;
+	color: #fff !important;
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 10px 15px;
+	margin-top: 10px;
+	display: inline-block;
+	border-radius: 3px;
+}
+.news-title {
+	height: 25px;
+	font-size: 16px !important;
+	text-align: left;
+}
+
+.latest-news-slider .slick-arrow {
+	display: none !important;
+}
+
+.latest-news-slider.slider { 
+	margin: 20px auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
