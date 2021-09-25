@@ -231,13 +231,17 @@ body.single-post .kingster-sidebar-style-none, body.blog .kingster-sidebar-style
 .kingster-footer-wrapper{ padding-bottom: 50px; } 
 .kingster-copyright-container{ padding-top: 33px; } 
 .kingster-copyright-container{ padding-bottom: 33px; } 
-.kingster-body h1, .kingster-body h2, .kingster-body h3, .kingster-body h4, .kingster-body h5, .kingster-body h6, .kingster-body .kingster-title-font,.kingster-body .gdlr-core-title-font{ font-family: "Poppins", sans-serif; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: "Poppins", sans-serif; } 
-.kingster-navigation .sf-menu > li > a, .kingster-navigation .sf-vertical > li > a, .kingster-navigation-font{ font-family: "Poppins", sans-serif; } 
-.kingster-body, .kingster-body .gdlr-core-content-font, .kingster-body input, .kingster-body textarea, .kingster-body button, .kingster-body select, .kingster-body .kingster-content-font, .gdlr-core-audio .mejs-container *{ font-family: "Poppins", sans-serif; } 
-.kingster-body .gdlr-core-info-font, .kingster-body .kingster-info-font{ font-family: "Poppins", sans-serif; } 
-.kingster-body .gdlr-core-blog-info-font, .kingster-body .kingster-blog-info-font{ font-family: "Poppins", sans-serif; } 
+.kingster-body h1, .kingster-body h2, .kingster-body h3, .kingster-body h4, .kingster-body h5, .kingster-body h6, .kingster-body .kingster-title-font,.kingster-body .gdlr-core-title-font{ font-family: 'Open Sans', sans-serif; }.woocommerce-breadcrumb, .woocommerce span.onsale, .single-product.woocommerce div.product p.price .woocommerce-Price-amount, .single-product.woocommerce #review_form #respond label{ font-family: 'Open Sans', sans-serif; } 
+.kingster-navigation .sf-menu > li > a, .kingster-navigation .sf-vertical > li > a, .kingster-navigation-font{ font-family: 'Open Sans', sans-serif; } 
+.kingster-body, .kingster-body .gdlr-core-content-font, .kingster-body input, .kingster-body textarea, .kingster-body button, .kingster-body select, .kingster-body .kingster-content-font, .gdlr-core-audio .mejs-container *{ font-family: 'Open Sans', sans-serif; } 
+.kingster-body .gdlr-core-info-font,
+.kingster-body .kingster-info-font {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.kingster-body .gdlr-core-blog-info-font, .kingster-body .kingster-blog-info-font{ font-family: 'Open Sans', sans-serif; } 
 .kingster-body .gdlr-core-quote-font, blockquote{ font-family: "ABeeZee", sans-serif; } 
-.kingster-body .gdlr-core-testimonial-content{ font-family: "Poppins", sans-serif; } 
+.kingster-body .gdlr-core-testimonial-content{ font-family: 'Open Sans', sans-serif; } 
 .kingster-body h1{ font-size: 52px; } 
 .kingster-body h2, #poststuff .gdlr-core-page-builder-body h2{ font-size: 48px; } 
 .kingster-body h3{ font-size: 36px; } 
