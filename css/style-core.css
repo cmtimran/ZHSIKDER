@@ -7136,11 +7136,17 @@ ul.dept-news-list li {
 	-moz-box-shadow:0px 10px 10px 3px rgb(139 139 139 / .5);
 	margin-top: 35px !important;
 }
+ 
 
-.faculty-members .bottomLine {
-	
+
+
+
+/* Tuition Fees */
+.tuition-fees table tr{ 
+	background-color: #dedede !important;
+	color: #000 !important;
 }
-
+ 
 
 
 
