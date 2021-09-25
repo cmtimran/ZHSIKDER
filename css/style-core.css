@@ -6749,6 +6749,12 @@ ul.dept-news-list li {
 	margin-bottom: 40px;
 }
 
+.section-cap .line-cap {
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
 #faculty-member .item img {
 	width: 200px !important;
 	height: 255px;
@@ -6904,3 +6910,92 @@ ul.dept-news-list li {
 	display: inline-block;
 	background-color: #4bb671;
 }
+
+ /* Gellary */
+.section.dept-custom-video .slider {
+	margin: 30px auto;
+}
+
+.regular-gallery {
+	margin: 0px !important;
+}
+
+.regular-gallery .slick-prev.slick-arrow {
+	position: absolute;
+	right: 130px;
+	top: -55px;
+	width: 100px;
+	height: 40px;
+	background: #4bb671;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #4bb671;
+	border-radius: 3px;
+}
+
+.regular-gallery .slick-next.slick-arrow {
+	position: absolute;
+	right: 15px;
+	top: -55px; 
+	width: 100px;
+	height: 40px;
+	background: #4bb671;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #4bb671;
+	border-radius: 3px;
+}
+
+.regular-gallery .slick-slide img { 
+	height: 150px; 
+}
+
+.regular-gallery .slick-prev.slick-arrow:hover,
+.regular-gallery .slick-next.slick-arrow:hover,
+.regular-gallery .slick-prev.slick-arrow:active,
+.regular-gallery .slick-next.slick-arrow:active,
+.regular-gallery .slick-prev.slick-arrow:focus,
+.regular-gallery .slick-next.slick-arrow:focus {
+	border: 1px solid #4bb671;
+}
+
+.regular-gallery .slick-list {
+	margin-left: 125px !important;
+}
+
+.gallery_item {
+	width: 265px !important;
+}
+
+.gallery-section {
+	background-color: #f5f5f5;
+	margin: 40px 0px;
+}
+
+.gallery-title {
+	padding-left: 200px;
+	padding-top: 65px;
+}
+
+.gallery-content-title {
+	font-size: 20px !important;
+	
+}
+
+.dept-custom-right-box {
+	margin-top: -60px;
+}
+
+.description {
+	text-align: justify;
+}
+
+.dept-custom-right-box .read-more {
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
